@@ -21,5 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "OpenWeather"
 include(":app")
-include(":core")
-include(":feature")
+include(":core:common")
+include(":core:data")
+include(":core:domain")
+include(":core:network")
+include(":feature:weather")
